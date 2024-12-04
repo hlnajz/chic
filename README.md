@@ -21,7 +21,7 @@ Chic is a WordPress-based CMS project designed for clothing stores. It provides 
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/chic.git
+    git clone https://github.com/hlnajz/chic.git
     ```
 2. Navigate to the project directory:
     ```bash
