@@ -1,5 +1,5 @@
 # Chic  
-WordPress Chic Store Clothing Project CMS
+WordPress Labbaalli Store Clothing Project CMS
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -10,7 +10,7 @@ WordPress Chic Store Clothing Project CMS
 - [License](#license)
 
 ## Introduction
-Chic is a WordPress-based CMS project designed for clothing stores. It provides a user-friendly interface for managing products, orders, and customers, allowing store owners to easily set up and manage their online clothing store.
+labbaalli Clothing is a WordPress-based CMS project designed for clothing stores. It provides a user-friendly interface for managing products, orders, and customers, allowing store owners to easily set up and manage their online clothing store.
 
 ## Features
 - Responsive design
@@ -37,18 +37,18 @@ Since this is a WordPress-based project, the installation doesn't require Node.j
    - Go to `http://localhost` in your browser to begin the WordPress installation process.
    - During the setup, enter the database details and follow the instructions to complete the WordPress installation.
 
-5. **Download & Install Chic Theme**:
+5. **Download & Install Astra Theme**:
    - Clone or download the Chic theme from this repository:
      ```bash
-     git clone https://github.com/hlnajz/chic.git
+     git clone https://github.com/hlnajz/labbaalli-clothing.git
      ```
-   - Move the **chic** folder into the `wp-content/themes/` directory of your WordPress installation.
-   - Go to **Appearance > Themes** in the WordPress dashboard, and activate the **Chic** theme.
+   - Move the **Astra** folder into the `wp-content/themes/` directory of your WordPress installation.
+   - Go to **Appearance > Themes** in the WordPress dashboard, and activate the **Astra** theme.
 
 ## Usage
 1. After installation, log in to your WordPress admin panel by navigating to `http://localhost/wp-admin` (or your live site if deployed).
-2. Add products, set up your store's pages, and customize the site’s appearance using the **Chic theme** settings.
-3. For the live site, visit [labbaalli.live/chic](http://labbaalli.live).
+2. Add products, set up your store's pages, and customize the site’s appearance using the **Clothing theme** settings.
+3. For the live site, visit [labbaalli.live](http://labbaalli.live).
 
 ## Contributing
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
