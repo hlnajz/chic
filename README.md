@@ -1,4 +1,4 @@
-# Chic  
+# Labbaalli Clothing  
 WordPress Labbaalli Store Clothing Project CMS
 
 ## Table of Contents
