@@ -1,0 +1,17 @@
+# Ignore some folders
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+wp-content/plugins/google-listings-and-ads/vendor/
+
+
+
+

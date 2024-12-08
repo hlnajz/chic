@@ -1,0 +1,54 @@
+/*
+* Brick's  css
+*/
+
+.wcf-bricks-checkout-form .wcf-embed-checkout-form-two-column .woocommerce-checkout #customer_details {
+	width: 55%;
+	margin-right: 0;
+}
+
+.cartflows_step-template .woocommerce-checkout .woocommerce-shipping-fields {
+	margin: 0;
+}
+.cartflows_step-template .wcf-embed-checkout-form .woocommerce-checkout #payment {
+	padding: 0;
+}
+.cartflows_step-template ul.woocommerce-shipping-methods input[type="radio"] {
+	float: none;
+}
+
+.wcf-bricks-checkout-form .woocommerce-checkout #payment .payment_methods input[type="radio"] {
+	float: none;
+}
+.cartflows_step-template .wcf-embed-checkout-form .woocommerce #payment [type="radio"]:checked + label,
+.wcf-embed-checkout-form .woocommerce #payment [type="radio"]:not( :checked ) + label {
+	display: inline-block;
+}
+
+.wcf-bricks-checkout-form .wcf-embed-checkout-form .woocommerce-checkout #payment div.payment_box {
+	margin: 18px 0;
+	width: 100%;
+}
+
+.wcf-bricks-checkout-form div#order_review {
+	border: 0;
+}
+.wcf-bricks-checkout-form .wcf-embed-checkout-form-one-column .woocommerce-checkout #customer_details,
+.wcf-bricks-checkout-form .wcf-embed-checkout-form-two-step .woocommerce-checkout #customer_details {
+	display: block;
+	width: 100%;
+	padding-right: 0;
+}
+/* Hide header and footer from builder editor page*/
+.cartflows_step-template header#brx-header {
+	display: none;
+}
+.cartflows_step-template footer#brx-footer {
+	display: none;
+}
+
+@media ( max-width: 767px ) {
+	.wcf-bricks-checkout-form .wcf-embed-checkout-form-two-column .woocommerce-checkout #customer_details {
+		width: 100%;
+	}
+}

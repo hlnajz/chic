@@ -1,0 +1,60 @@
+/* CSS for Order Details Form module */
+.cartflows-bricks__display-order-overview-no .wcf-thankyou-wrap .woocommerce-order ul.order_details,
+.cartflows-bricks__display-order-overview-no .wcf-thankyou-wrap .woocommerce-order .woocommerce-thankyou-order-details {
+	display: none;
+}
+
+.cartflows-bricks__display-order-overview-yes .wcf-thankyou-wrap .woocommerce-order ul.order_details,
+.cartflows-bricks__display-order-overview-yes .wcf-thankyou-wrap .woocommerce-order .woocommerce-thankyou-order-details {
+	display: block;
+}
+
+.cartflows-bricks__display-order-details-no .wcf-thankyou-wrap .woocommerce-order .woocommerce-order-details {
+	display: none;
+}
+
+.cartflows-bricks__display-order-details-yes .wcf-thankyou-wrap .woocommerce-order .woocommerce-order-details {
+	display: block;
+}
+
+.cartflows-bricks__display-shipping-address-no .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details .woocommerce-column--shipping-address {
+	display: none;
+}
+
+.cartflows-bricks__display-billing-address-no .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details .woocommerce-column--billing-address {
+	display: none;
+}
+
+.cartflows-bricks__display-billing-address-no.cartflows-bricks__display-shipping-address-no .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details {
+	display: none;
+}
+
+.cartflows-bricks__display-billing-address-no.cartflows-bricks__display-shipping-address-yes .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details,
+.cartflows-bricks__display-billing-address-yes.cartflows-bricks__display-shipping-address-no .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details,
+.cartflows-bricks__display-billing-address-yes.cartflows-bricks__display-shipping-address-yes .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details,
+.cartflows-bricks__display-billing-address-yes .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details .woocommerce-column--billing-address,
+.cartflows-bricks__display-shipping-address-yes .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details .woocommerce-column--shipping-address,
+.cartflows-bricks__display-order-details-yes .wcf-thankyou-wrap .woocommerce-order .woocommerce-order-details {
+	display: block;
+}
+.cartflows-bricks__display-billing-address-no.cartflows-bricks__display-shipping-address-yes .wcf-thankyou-wrap .woocommerce-order .woocommerce-column--shipping-address {
+	float: left;
+}
+.brxe-bricks-checkout-form .woocommerce-checkout #order_review {
+	border: 0;
+}
+.cartflows-bricks__order-details-form .wcf-thankyou-wrap .woocommerce-order-details table tfoot {
+	background: none;
+}
+
+.wcf-bricks-checkout-form .woocommerce .woocommerce-checkout .wcf-customer-info-main-wrapper #customer_details {
+	width: 100%;
+}
+
+.brxe-bricks-checkout-form .wcf-bricks-checkout-form h3#customer_information_heading {
+	display: block;
+}
+
+.brxe-bricks-checkout-form .woocommerce-checkout #payment .payment_methods .payment_box::before {
+	background-color: transparent;
+}

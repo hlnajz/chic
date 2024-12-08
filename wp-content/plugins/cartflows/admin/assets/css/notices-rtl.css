@@ -1,0 +1,111 @@
+.wcf-notice .wcf-notice-container {
+	display: flex;
+	padding: 10px 0 10px 0;
+}
+
+.wcf-notice .wcf-notice-container img {
+	align-self: center;
+	width: 7%;
+	border-radius: 50%;
+}
+
+.wcf-notice .wcf-notice-container .wcf-notice-message {
+	margin-right: 10px;
+}
+
+.wcf-notice .wcf-notice-container .wcf-notice-heading {
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.wcf-notice .wcf-notice-container .wcf-notice-description {
+	font-size: 14px;
+}
+
+/* Notice slider changes */
+
+.slide-wrapper.gap-2.border-l-4.border.border-yellow-400.rounded-lg.bg-yellow-50.p-3 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.wcf-notices-wrapper {
+	margin-bottom: 2rem;
+	width: 100%;
+	display: inline-block;
+}
+
+.wcf-notices-wrapper .wcf-payment-gateway-notice--icon {
+	display: flex;
+	width: auto;
+	max-width: 25px;
+	float: right;
+}
+.wcf-payment-gateway-notice--text {
+	display: flex;
+	margin-right: 6px;
+}
+
+.wcf-notices-wrapper .slider-container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+
+.wcf-notices-wrapper.slide img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.wcf-notices-wrapper .slider-button {
+	color: #a16207;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0 3px 0 3px;
+}
+
+.wcf-notices-wrapper .slider-dots {
+	width: 5%;
+	display: flex;
+	justify-content: flex-end;
+}
+.wcf-notices-wrapper .slider-button svg {
+	width: 1.5rem;
+	height: auto;
+}
+
+.wcf-notices-wrapper .slider-button.disabled {
+	color: #cccfff; /* Change this color as desired */
+	cursor: not-allowed;
+}
+.wcf-payment-gateway-notice--text a:hover {
+	color: #a16207;
+}
+.wcf-payment-gateway-notice--text .font-medium {
+	font-weight: 500;
+}
+.wcf-payment-gateway-notice--text .text-yellow-700 {
+	--tw-text-opacity: 1;
+	color: rgb( 161 98 7 / var( --tw-text-opacity ) );
+}
+.wcf-payment-gateway-notice--text .underline {
+	text-decoration-line: underline;
+}
+.wcf-payment-gateway-notice--text .capitalize {
+	text-transform: capitalize;
+}
+.wcf-notices-wrapper .slide {
+	transition: opacity 0.4s ease-in-out;
+	display: flex;
+	width: 95%;
+	align-items: flex-start;
+}
+.wcf-notices-wrapper .fade-in {
+	opacity: 1;
+}
+
+.wcf-notices-wrapper .fade-out {
+	opacity: 0;
+}

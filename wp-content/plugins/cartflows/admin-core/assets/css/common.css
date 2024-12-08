@@ -1,0 +1,172 @@
+/**
+* *********************
+* Cartflows Font Family
+* *********************
+*/
+
+@font-face {
+	font-family: Roboto;
+	src: url( "../fonts/roboto-regular-webfont.eot" );
+	src: url( "../fonts/roboto-regular-webfont.eot" ) format( "embedded-opentype" ), url( "../fonts/roboto-regular-webfont.ttf" ) format( "truetype" ), url( "../fonts/roboto-regular-webfont.wof?kxnn1n" ) format( "woff" ), url( "../fonts/roboto-regular-webfont.svg" ) format( "svg" );
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url( "../fonts/roboto-medium-webfont.eot" );
+	src: url( "../fonts/roboto-medium-webfont.eot" ) format( "embedded-opentype" ), url( "../fonts/roboto-medium-webfont.ttf" ) format( "truetype" ), url( "../fonts/roboto-medium-webfont.wof?kxnn1n" ) format( "woff" ), url( "../fonts/roboto-medium-webfont.svg" ) format( "svg" );
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url( "../fonts/roboto-bold-webfont.eot" );
+	src: url( "../fonts/roboto-bold-webfont.eot" ) format( "embedded-opentype" ), url( "../fonts/roboto-bold-webfont.ttf" ) format( "truetype" ), url( "../fonts/roboto-bold-webfont.wof?kxnn1n" ) format( "woff" ), url( "../fonts/roboto-bold-webfont.svg" ) format( "svg" );
+	font-weight: 600;
+	font-style: normal;
+}
+
+/**
+* *********************
+* Cartflows Font Icon
+* *********************
+*/
+@font-face {
+	font-family: cartflows-logo-icon;
+	src: url( "../fonts/icons/cartflows-logo-icon.eot?kxnn1n" );
+	src: url( "../fonts/icons/cartflows-logo-icon.eot?kxnn1n#iefix" ) format( "embedded-opentype" ), url( "../fonts/icons/cartflows-logo-icon.ttf?kxnn1n" ) format( "truetype" ), url( "../fonts/icons/cartflows-logo-icon.woff?kxnn1n" ) format( "woff" ), url( "../fonts/icons/cartflows-logo-icon.svg?kxnn1n#cartflows-logo-icon" ) format( "svg" );
+	font-weight: 400;
+	font-style: normal;
+}
+
+.wcf-cartflows-logo-img [class^="cartflows-icon"],
+.wcf-cartflows-logo-img [class*=" cartflows-icon"], /* For Pro Compatibility */
+[class^="cartflows-logo-icon"],
+[class*=" cartflows-logo-icon"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: cartflows-logo-icon !important;
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wcf-cartflows-logo-img .cartflows-icon::before,
+.cartflows-logo-icon::before {
+	content: "\e900";
+	color: #f16334;
+}
+
+.cartflows-icon-check::before {
+	font-family: cartflows-logo-icon;
+	content: "\e901";
+}
+
+/**
+* *********************
+* Cartflows Font Icon
+* *********************
+*/
+
+/* CartFlows 404 page */
+.wcf-no-page-found-wrapper,
+.wcf-no-access-error-wrapper {
+	display: flex;
+	flex-grow: 1;
+	margin: 0 auto;
+	width: 100%;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.wcf-no-access-error-wrapper .wcf-no-access--icon img {
+	width: 35px;
+	height: 35px;
+}
+
+.wcf-no-page-found-wrapper .not-found-pre-sub-title {
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+.wcf-no-page-found-wrapper .not-found-title {
+	font-size: 2.5rem;
+	line-height: 1;
+	margin: 0.5em 0 0.3em 0;
+}
+
+.wcf-no-access-error-wrapper .wcf-no-access--title {
+	font-size: 1.5rem;
+	line-height: 1;
+	margin: 0.5em 0 0.3em 0;
+}
+
+.wcf-no-page-found-wrapper .not-found-message p,
+.wcf-no-access-error-wrapper .wcf-no-access--message {
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+
+.wcf-no-page-found-wrapper .not-found-action-link,
+.wcf-no-access-error-wrapper .wcf-no-access-link {
+	color: #f06335;
+	text-decoration: none;
+	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	margin-top: 20px;
+}
+
+.wcf-no-page-found-wrapper .not-found-action-link .dashicons,
+.wcf-no-access-error-wrapper .wcf-no-access-link .dashicons {
+	margin-left: 5px;
+	font-size: 1em;
+	line-height: 1.4rem;
+}
+
+/* CartFlows 404 page */
+
+.toplevel_page_cartflows #wpcontent {
+	padding-left: 0;
+}
+
+.wcf-menu-page-wrapper a:focus {
+	box-shadow: none;
+	outline: none;
+}
+.cf-kb-inner-wrap .cf-docs-search-fields {
+	padding: 9px 0;
+	padding-left: 2.875rem;
+	border: 1px solid #cbd5e1;
+	box-shadow: 0 1px 2px rgba( 0, 0, 0, 0.05 );
+	border-radius: 6px;
+	line-height: 1.625rem;
+}
+.cf-docs-search-fields[type="search"]::-webkit-search-cancel-button {
+	height: 1em;
+	width: 1em;
+	font-size: 2em;
+	opacity: 0;
+	position: absolute;
+	left: 1rem;
+	pointer-events: all;
+	z-index: 999;
+}
+
+#wpbody-content > .notice:not( .wcf-notice ),
+#wpbody-content > .error:not( .wcf-notice ) {
+	display: none !important;
+}
+
+.wcf-item.wcf-item__start-from-blank.h-full.bg-white.rounded-lg.relative.start-scratch {
+	min-height: 443px;
+}

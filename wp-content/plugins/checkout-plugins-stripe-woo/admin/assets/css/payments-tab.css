@@ -1,0 +1,7 @@
+/*
+* Custom Style for payments settings tab
+*/
+
+.wc_payment_gateways_wrapper tr[data-gateway_id="cpsw_stripe_element"] .status a {
+	display: none !important;
+}
